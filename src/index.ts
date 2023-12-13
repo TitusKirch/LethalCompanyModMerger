@@ -173,11 +173,10 @@ const main = async () => {
     console.log(`Trying to download ${mod.name}...`);
     try {
       await downloadMod(mod);
+      console.log(`Downloaded ${mod.name} successfully!`);
     } catch (error) {
       console.error(error);
     }
-
-    console.log(`Downloaded ${mod.name} successfully!`);
   }
 
   // extract mods (only zip files)
@@ -185,11 +184,10 @@ const main = async () => {
     console.log(`Trying to extract ${mod.name}...`);
     try {
       await extractMod(mod);
+      console.log(`Extracted ${mod.name} successfully!`);
     } catch (error) {
       console.error(error);
     }
-
-    console.log(`Extracted ${mod.name} successfully!`);
   }
 
   // move dlls (only dll files)
@@ -197,17 +195,17 @@ const main = async () => {
     console.log(`Trying to move ${mod.name}...`);
     try {
       await moveDll(mod);
+      console.log(`Moved ${mod.name} successfully!`);
     } catch (error) {
       console.error(error);
     }
-
-    console.log(`Moved ${mod.name} successfully!`);
   }
 
   // zip output
   console.log(`Trying to zip output...`);
   try {
     await zipOutput();
+    console.log(`Zipped output successfully!`);
   } catch (error) {
     console.error(error);
   }
