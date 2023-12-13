@@ -1,0 +1,36 @@
+{
+  "mods": [
+    {
+      "name": "BepInEx",
+      "source": "github",
+      "url": "https://github.com/BepInEx/BepInEx",
+      "assetType": "zip",
+      "assetNameStartsWith": "BepInEx_x64"
+    },
+    {
+      "name": "MoreCompany",
+      "source": "thunderstoreIo",
+      "url": "https://thunderstore.io/c/lethal-company/p/notnotnotswipez/MoreCompany/",
+      "assetType": "zip"
+    },
+    {
+      "name": "LateCompany",
+      "source": "github",
+      "url": "https://github.com/ANormalTwig/LC-LateCompany",
+      "assetType": "dll",
+      "assetNameStartsWith": "LateCompany"
+    },
+    {
+      "name": "MoreSuits",
+      "source": "thunderstoreIo",
+      "url": "https://thunderstore.io/c/lethal-company/p/x753/More_Suits/",
+      "assetType": "zip"
+    },
+    {
+      "name": "Skinwalkers",
+      "source": "thunderstoreIo",
+      "url": "https://thunderstore.io/c/lethal-company/p/RugbugRedfern/Skinwalkers/",
+      "assetType": "zip"
+    }
+  ]
+}
