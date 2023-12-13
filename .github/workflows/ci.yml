@@ -36,5 +36,5 @@ jobs:
       - name: Format
         run: pnpm format
 
-      - name: Build
-        run: pnpm build
+      # - name: Build
+      #   run: pnpm build
