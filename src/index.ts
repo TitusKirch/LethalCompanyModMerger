@@ -120,7 +120,16 @@ const extractMod = async (mod: Mod) => {
   const tmpPath = path.join(__dirname, 'tmp', mod.name);
 
   // get output path
-  const outputPath = path.join(__dirname, '..', 'output');
+  let outputPath = '';
+
+  // get output path
+  if (mod.moveInBepInExPlugins) {
+    outputPath = path.join(__dirname, '..', 'output', 'BepInEx', 'plugins');
+  } else if (mod.moveInBepInEx) {
+    outputPath = path.join(__dirname, '..', 'output', 'BepInEx');
+  } else {
+    outputPath = path.join(__dirname, '..', 'output');
+  }
 
   // create output folder if not exists
   if (!fs.existsSync(outputPath)) {
@@ -128,7 +137,9 @@ const extractMod = async (mod: Mod) => {
   }
 
   // extract mod
-  await decompress(path.join(tmpPath, `${mod.name}.zip`), outputPath);
+  await decompress(path.join(tmpPath, `${mod.name}.zip`), outputPath, {
+    filter: (file) => !file.path.endsWith('/'),
+  });
 };
 const moveDll = async (mod: Mod) => {
   // get tmp path

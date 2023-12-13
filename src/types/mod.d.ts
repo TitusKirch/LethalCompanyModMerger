@@ -4,4 +4,6 @@ export type Mod = {
   url: string;
   assetType: 'zip' | 'dll';
   assetNameStartsWith?: string;
+  moveInBepInEx?: boolean;
+  moveInBepInExPlugins?: boolean;
 };

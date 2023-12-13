@@ -31,6 +31,54 @@
       "source": "thunderstoreIo",
       "url": "https://thunderstore.io/c/lethal-company/p/RugbugRedfern/Skinwalkers/",
       "assetType": "zip"
+    },
+    {
+      "name": "BepInUtils",
+      "source": "thunderstoreIo",
+      "url": "https://thunderstore.io/c/lethal-company/p/Ozone/BepInUtils/",
+      "assetType": "zip",
+      "moveInBepInExPlugins": true
+    },
+    {
+      "name": "Lockdown",
+      "source": "thunderstoreIo",
+      "url": "https://thunderstore.io/c/lethal-company/p/Ozone/Lockdown/",
+      "assetType": "zip",
+      "moveInBepInExPlugins": true
+    },
+    {
+      "name": "ReservedItemSlotCore",
+      "source": "thunderstoreIo",
+      "url": "https://thunderstore.io/c/lethal-company/p/FlipMods/ReservedItemSlotCore/",
+      "assetType": "zip",
+      "moveInBepInExPlugins": true
+    },
+    {
+      "name": "ReservedFlashlightSlot",
+      "source": "thunderstoreIo",
+      "url": "https://thunderstore.io/c/lethal-company/p/FlipMods/ReservedFlashlightSlot/",
+      "assetType": "zip",
+      "moveInBepInExPlugins": true
+    },
+    {
+      "name": "ReservedWalkieSlot",
+      "source": "thunderstoreIo",
+      "url": "https://thunderstore.io/c/lethal-company/p/FlipMods/ReservedWalkieSlot/",
+      "assetType": "zip",
+      "moveInBepInExPlugins": true
+    },
+    {
+      "name": "ShipLoot",
+      "source": "thunderstoreIo",
+      "url": "https://thunderstore.io/c/lethal-company/p/tinyhoot/ShipLoot/",
+      "assetType": "zip",
+      "moveInBepInEx": true
+    },
+    {
+      "name": "MoreEmotes",
+      "source": "thunderstoreIo",
+      "url": "https://thunderstore.io/c/lethal-company/p/Sligili/More_Emotes/",
+      "assetType": "zip"
     }
   ]
 }
