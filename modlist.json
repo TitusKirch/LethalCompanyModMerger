@@ -125,6 +125,25 @@
       "source": "thunderstoreIo",
       "url": "https://thunderstore.io/c/lethal-company/p/Sculas/BrutalCompanyAdditions/",
       "assetType": "zip"
+    },
+    {
+      "name": "TerminalApi",
+      "source": "thunderstoreIo",
+      "url": "https://thunderstore.io/c/lethal-company/p/NotAtomicBomb/TerminalApi/",
+      "assetType": "zip"
+    },
+    {
+      "name": "LethalCompanyInputUtils",
+      "source": "thunderstoreIo",
+      "url": "https://thunderstore.io/c/lethal-company/p/Rune580/LethalCompany_InputUtils/",
+      "assetType": "zip",
+      "moveInBepInExPlugins": true
+    },
+    {
+      "name": "TerminalHistory",
+      "source": "thunderstoreIo",
+      "url": "https://thunderstore.io/c/lethal-company/p/NotAtomicBomb/Terminal_History/",
+      "assetType": "zip"
     }
   ]
 }
