@@ -79,6 +79,52 @@
       "source": "thunderstoreIo",
       "url": "https://thunderstore.io/c/lethal-company/p/Sligili/More_Emotes/",
       "assetType": "zip"
+    },
+    {
+      "name": "HookGenPatcher",
+      "source": "thunderstoreIo",
+      "url": "https://thunderstore.io/c/lethal-company/p/Evaisa/HookGenPatcher/",
+      "assetType": "zip",
+      "moveInBepInEx": true
+    },
+    {
+      "name": "LethalLib",
+      "source": "thunderstoreIo",
+      "url": "https://thunderstore.io/c/lethal-company/p/Evaisa/LethalLib/",
+      "assetType": "zip",
+      "moveInBepInEx": true
+    },
+    {
+      "name": "LethalThings",
+      "source": "thunderstoreIo",
+      "url": "https://thunderstore.io/c/lethal-company/p/Evaisa/LethalThings/",
+      "assetType": "zip",
+      "moveInBepInEx": true
+    },
+    {
+      "name": "LategameUpgrades",
+      "source": "thunderstoreIo",
+      "url": "https://thunderstore.io/c/lethal-company/p/malco/Lategame_Upgrades/",
+      "assetType": "zip"
+    },
+    {
+      "name": "MoreItems",
+      "source": "thunderstoreIo",
+      "url": "https://thunderstore.io/c/lethal-company/p/Drakorle/MoreItems/",
+      "assetType": "zip"
+    },
+    {
+      "name": "BrutalCompanyPlus",
+      "source": "thunderstoreIo",
+      "url": "https://thunderstore.io/c/lethal-company/p/Nips/Brutal_Company_Plus/",
+      "assetType": "zip",
+      "moveInBepInExPlugins": true
+    },
+    {
+      "name": "BrutalCompanyAdditions",
+      "source": "thunderstoreIo",
+      "url": "https://thunderstore.io/c/lethal-company/p/Sculas/BrutalCompanyAdditions/",
+      "assetType": "zip"
     }
   ]
 }
