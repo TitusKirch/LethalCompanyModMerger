@@ -144,6 +144,12 @@
       "source": "thunderstoreIo",
       "url": "https://thunderstore.io/c/lethal-company/p/NotAtomicBomb/Terminal_History/",
       "assetType": "zip"
+    },
+    {
+      "name": "AdvancedCompany",
+      "source": "thunderstoreIo",
+      "url": "https://thunderstore.io/c/lethal-company/p/PotatoePet/AdvancedCompany/",
+      "assetType": "zip"
     }
   ]
 }
