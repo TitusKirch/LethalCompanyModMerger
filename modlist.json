@@ -150,6 +150,34 @@
       "source": "thunderstoreIo",
       "url": "https://thunderstore.io/c/lethal-company/p/PotatoePet/AdvancedCompany/",
       "assetType": "zip"
+    },
+    {
+      "name": "GameMaster",
+      "source": "thunderstoreIo",
+      "url": "https://thunderstore.io/c/lethal-company/p/GameMasterDevs/GameMaster/",
+      "assetType": "zip",
+      "moveInBepInExPlugins": true
+    },
+    {
+      "name": "SpectateEnemies",
+      "source": "thunderstoreIo",
+      "url": "https://thunderstore.io/c/lethal-company/p/AllToasters/SpectateEnemies/",
+      "assetType": "zip",
+      "moveInBepInExPlugins": true
+    },
+    {
+      "name": "SpectateEnemies",
+      "source": "thunderstoreIo",
+      "url": "https://thunderstore.io/c/lethal-company/p/AllToasters/SpectateEnemies/",
+      "assetType": "zip",
+      "moveInBepInExPlugins": true
+    },
+    {
+      "name": "ghostCodes",
+      "source": "thunderstoreIo",
+      "url": "https://thunderstore.io/c/lethal-company/p/AllToasters/SpectateEnemies/",
+      "assetType": "zip",
+      "moveInBepInExPlugins": true
     }
   ]
 }
